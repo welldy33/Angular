@@ -5,6 +5,9 @@ import { SidebarComponent } from '../layout/sidebar/sidebar.component';
 import { FootbarComponent } from '../layout/footbar/footbar.component';
 import { SettingbarComponent } from '../layout/settingbar/settingbar.component';
 import { TopnavbarComponent } from '../layout/topnavbar/topnavbar.component';
+import { FirstcontentComponent } from '../content/firstcontent/firstcontent.component';
+import { SecondcontentComponent } from '../content/secondcontent/secondcontent.component';
+
 
 
 @NgModule({
@@ -12,7 +15,9 @@ import { TopnavbarComponent } from '../layout/topnavbar/topnavbar.component';
     SidebarComponent,
     FootbarComponent,
     SettingbarComponent,
-    TopnavbarComponent
+    TopnavbarComponent,
+    FirstcontentComponent,
+    SecondcontentComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +26,9 @@ import { TopnavbarComponent } from '../layout/topnavbar/topnavbar.component';
     TopnavbarComponent,
     SidebarComponent,
     FootbarComponent,
-    SettingbarComponent
+    SettingbarComponent,
+    FirstcontentComponent,
+    SecondcontentComponent
   ]
 })
 export class LayoutModule { }

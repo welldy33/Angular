@@ -10,13 +10,14 @@ import { AppComponent } from './app.component';
 //import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginModule } from './login/login.module';
 import {DashboardModule} from './dashboard/dashboard.module';
+
 //import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     //AppnavbarComponent,
-    AppComponent,
+    AppComponent
   //  ListLineComponent,
    // SidebarComponent,
    // LoginComponent,
