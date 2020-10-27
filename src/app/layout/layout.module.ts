@@ -5,8 +5,6 @@ import { SidebarComponent } from '../layout/sidebar/sidebar.component';
 import { FootbarComponent } from '../layout/footbar/footbar.component';
 import { SettingbarComponent } from '../layout/settingbar/settingbar.component';
 import { TopnavbarComponent } from '../layout/topnavbar/topnavbar.component';
-import { FirstcontentComponent } from '../content/firstcontent/firstcontent.component';
-import { SecondcontentComponent } from '../content/secondcontent/secondcontent.component';
 
 
 
@@ -15,9 +13,7 @@ import { SecondcontentComponent } from '../content/secondcontent/secondcontent.c
     SidebarComponent,
     FootbarComponent,
     SettingbarComponent,
-    TopnavbarComponent,
-    FirstcontentComponent,
-    SecondcontentComponent
+    TopnavbarComponent
   ],
   imports: [
     CommonModule,
@@ -26,9 +22,7 @@ import { SecondcontentComponent } from '../content/secondcontent/secondcontent.c
     TopnavbarComponent,
     SidebarComponent,
     FootbarComponent,
-    SettingbarComponent,
-    FirstcontentComponent,
-    SecondcontentComponent
+    SettingbarComponent
   ]
 })
 export class LayoutModule { }

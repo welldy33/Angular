@@ -9,7 +9,8 @@ import { AppComponent } from './app.component';
 //import { AppnavbarComponent } from './appnavbar/appnavbar.component';
 //import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginModule } from './login/login.module';
-import {DashboardModule} from './dashboard/dashboard.module';
+import {LayoutModule} from './layout/layout.module';
+import {ContentModule } from './content/content.module';
 
 //import { LoginComponent } from './login/login.component';
 
@@ -27,7 +28,8 @@ import {DashboardModule} from './dashboard/dashboard.module';
     BrowserModule,
     AppRoutingModule,
     LoginModule,
-    DashboardModule
+    LayoutModule,
+    ContentModule
    // HttpClientModule
   ],
   providers: [],

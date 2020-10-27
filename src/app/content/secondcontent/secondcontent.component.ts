@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-secondcontent',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondcontentComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router: Router) { }
+  test(){
+    this.router.navigate(['dashboard']);
+  }
   ngOnInit(): void {
   }
 

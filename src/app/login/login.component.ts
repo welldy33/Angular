@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private router: Router) { }
   login(){
-    this.router.navigate(['dashboard']);
+    this.router.navigate(['login']);
   }
   ngOnInit(): void {
     document.body.className = 'hold-transition login-page';

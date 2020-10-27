@@ -1,2 +1,13 @@
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<router-outlet></router-outlet>
+<div class="wrapper">
+    <app-topnavbar></app-topnavbar>
+    <app-sidebar></app-sidebar>
+    <div class="content-wrapper" style="min-height: 926px;">
+      <section class="content-header">
+        <section class="content">
+          <router-outlet></router-outlet>
+        </section>
+      </section>
+    </div>
+    <app-footbar></app-footbar>
+    <app-settingbar></app-settingbar>
+</div>
