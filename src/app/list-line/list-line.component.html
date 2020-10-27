@@ -1,0 +1,17 @@
+<h2>Data Area</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>LIB NO</th>
+            <th>LIB NAME</th>
+            <th>KIND</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of dataLine">
+            <td>{{data.LIB_NO}}</td>
+            <td>{{data.LIB_NM}}</td>
+            <td>{{data.KIND}}</td>
+        </tr>
+    </tbody>
+</table>
