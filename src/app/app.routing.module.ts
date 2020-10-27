@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule }   from '@angular/router';
-import { CommonModule } from '@angular/common';
-import { ListLineComponent }  from './list-line/list-line.component';
 
 
 const appRoutes: Routes = [
-  { path: '', component:  ListLineComponent},
+  { path: '', redirectTo: 'login', pathMatch: 'full'}
+ // { path: '', component:  ListLineComponent},
 ];
 
 @NgModule({
   declarations: [],
   imports: [
-    RouterModule.forRoot(appRoutes),
-    CommonModule
+    RouterModule.forRoot(appRoutes)
   ],
   exports:[
     RouterModule
